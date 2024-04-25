@@ -7,7 +7,7 @@ return {
     end,
   },
 
-  These are some examples, uncomment them if you want to see them work!
+  -- These are some examples, uncomment them if you want to see them work!
   {
     "neovim/nvim-lspconfig",
     config = function()
@@ -21,7 +21,7 @@ return {
   	opts = {
   		ensure_installed = {
   			"lua-language-server", "stylua",
-  			"html-lsp", "css-lsp" , "prettier", "pyright", "rustfmt", "rust_analyzer"
+  			"html-lsp", "css-lsp" , "prettier", "pyright", "pyright-langserver", "rustfmt", "rust_analyzer", "markdown_oxide", "injected"
   		},
   	},
   },
@@ -30,8 +30,8 @@ return {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
-  			"vim", "lua", "vimdoc",
-        "html", "css", "javascript", "typescript", "tsx"
+  			"vim", "lua", "vimdoc", "markdown",
+        "html", "css", "javascript", "typescript", "tsx",
         "python", "rust", "ruby", "c"
   		},
   	},

@@ -3,7 +3,8 @@ local options = {
     lua = { "stylua" },
     css = { "prettier" },
     html = { "prettier" },
-    python = { "pyright" },
+    markdown = { "markdown" },
+    python = { "injected" },
     rust = { "rustfmt" }
   },
 
