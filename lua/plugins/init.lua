@@ -31,6 +31,7 @@ return {
         "rust_analyzer",
         "markdown_oxide",
         "injected",
+        "gopls",
       },
     },
   },
